@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 
 import ProjectCard from "./ProjectCard";
-import { projects } from "../../../data/projectsData";
+import { projects } from "../../../data/ProjectsData";
 
 const container = {
   hidden: {},
