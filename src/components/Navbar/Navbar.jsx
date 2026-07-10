@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -56,16 +57,19 @@ export default function Navbar() {
           </h1>
 
           <ul className="hidden md:flex gap-10 text-gray-300">
-            <li className="hover:text-orange-500 cursor-pointer transition">Home</li>
-            <li className="hover:text-orange-500 cursor-pointer transition">About</li>
-            <li className="hover:text-orange-500 cursor-pointer transition">Skills</li>
-            <li className="hover:text-orange-500 cursor-pointer transition">Projects</li>
-            <li className="hover:text-orange-500 cursor-pointer transition">Contact</li>
+            <li><a href="#home" className="hover:text-orange-500 transition">Home</a></li>
+              <li><a href="#about" className="hover:text-orange-500 transition">About</a></li>
+              <li><a href="#skills" className="hover:text-orange-500 transition">Skills</a></li>
+              <li><a href="#projects" className="hover:text-orange-500 transition">Projects</a></li>
+              <li><a href="#contact" className="hover:text-orange-500 transition">Contact</a></li>
           </ul>
 
-          <button className="hidden md:block px-5 py-2 rounded-xl bg-orange-500 hover:bg-orange-600 transition">
-            Hire Me
-          </button>
+                <Link to="/thank-you">
+                    <button className="hidden md:block px-5 py-2 rounded-xl bg-orange-500 hover:bg-orange-600 transition">
+                     Hire Me
+                   </button>
+
+                </Link>
 
           <HiOutlineMenuAlt3 className="md:hidden text-3xl" />
         </div>

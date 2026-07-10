@@ -3,6 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 import HeroStats from "./HeroStats";
 import MagneticButton from "./MagneticButton";
+import { Link } from "react-router-dom";
 
 import {
   FaGithub,
@@ -60,7 +61,7 @@ export default function HeroLeft() {
       </p>
 
       <div className="flex flex-wrap gap-5 mt-10">
-
+        <Link to="/thank-you">
         <MagneticButton
           className="bg-orange-500 hover:bg-orange-600"
         >
@@ -68,7 +69,7 @@ export default function HeroLeft() {
 
           <FaArrowRight />
         </MagneticButton>
-
+        </Link>
       <a href="/cv/Turjo_Dutta_CV.pdf" download="Turjo_Dutta_CV.pdf">
        <MagneticButton className="border border-white/10 hover:bg-white/10">
          Download CV

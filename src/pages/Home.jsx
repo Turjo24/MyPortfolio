@@ -8,6 +8,7 @@ import Projects from "../components/sections/Projects/Projects";
 import Navbar from "../components/Navbar/Navbar";
 import Education from "../components/sections/Education/Education";
 import Contact from "../components/sections/Contact/Contact";
+import ThankYou from "../components/sections/ThankYou/ThankYou";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         <Education />
         <Background />
         <Contact />
-      <Spotlight />
+        <Spotlight />
 
         
           
