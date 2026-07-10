@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+html,
+body,
+#root{
+    width:100%;
+    min-height:100%;
+    background:#050505;
+}
+
+body{
+    margin:0;
+    font-family:Inter,sans-serif;
+} 
+@theme {
+
+  --animate-spinSlow: spin 8s linear infinite;
+
+}
+
+@keyframes spin{
+
+from{
+
+transform:rotate(0deg);
+
+}
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+}
