@@ -1,3 +1,7 @@
+import Edokan from "../assets/Edokan.png";
+import water4all from "../assets/water4all.png";
+
+
 export const projects = [
   {
     id: 1,
@@ -21,9 +25,9 @@ export const projects = [
 
     image: "/projects/task-manager.png",
 
-    github: "#",
+    github: "https://github.com/Turjo24/Task_Manager",
 
-    live: "#",
+    live: null,
   },
 
   {
@@ -45,11 +49,11 @@ export const projects = [
       "MongoDB",
     ],
 
-    image: "/projects/edokan.png",
+    image: Edokan,
 
-    github: "#",
+    github: "https://github.com/kalvin-chakma/Project-CSE-2200",
 
-    live: "#",
+    live: "https://project-cse-2200-ui.vercel.app/",
   },
 
   {
@@ -70,11 +74,11 @@ export const projects = [
       "Bootstrap",
     ],
 
-    image: "/projects/water4all.png",
+    image: water4all,
 
-    github: "#",
+    github: "https://github.com/Turjo24/Water4ALL-ASP.NET-PROJECT",
 
-    live: "#",
+    live: null,
   },
 
   {
@@ -95,9 +99,9 @@ export const projects = [
 
     image: "/projects/pharmaconnect.png",
 
-    github: "#",
+    github: "https://github.com/Ahnaf152020/PharmaConnect",
 
-    live: "#",
+    live: null,
   },
 
   {
@@ -118,9 +122,9 @@ export const projects = [
 
     image: "/projects/trendytrade.png",
 
-    github: "#",
+    github: "https://github.com/Farhan-Islam-Ifti/TrendyTrade",
 
-    live: "#",
+    live: null,
   },
 
   {
@@ -144,6 +148,6 @@ export const projects = [
 
     github: "#",
 
-    live: "#",
+    live: null,
   },
 ];

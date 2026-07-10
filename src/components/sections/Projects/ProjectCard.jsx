@@ -241,37 +241,29 @@ export default function ProjectCard({
             GitHub
           </a>
 
+          {project.live && (
           <a
             href={project.live}
             target="_blank"
             rel="noreferrer"
             className="
-            flex-1
-
-            flex
-
-            items-center
-
-            justify-center
-
-            gap-2
-
-            rounded-xl
-
-            py-3
-
-            bg-orange-500
-
-            hover:bg-orange-600
-
-            transition
+              flex-1
+              flex
+              items-center
+              justify-center
+              gap-2
+              rounded-xl
+              py-3
+              bg-orange-500
+              hover:bg-orange-600
+              transition
             "
           >
             <FaExternalLinkAlt />
-
             Live
           </a>
-        </div>
+        )}
+              </div>
 
       </div>
     </motion.div>

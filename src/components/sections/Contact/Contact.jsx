@@ -94,13 +94,13 @@ export default function Contact() {
               <ContactItem
                 icon={<FaEnvelope />}
                 title="Email"
-                value="your_email@gmail.com"
+                value="turjodutta023@gmail.com"
               />
 
               <ContactItem
                 icon={<FaPhoneAlt />}
                 title="Phone"
-                value="+8801XXXXXXXXX"
+                value="+8801955584768"
               />
 
               <ContactItem
@@ -115,12 +115,12 @@ export default function Contact() {
 
               <SocialButton
                 icon={<FaGithub />}
-                link="#"
+                link="https://github.com/Turjo24"
               />
 
               <SocialButton
                 icon={<FaLinkedin />}
-                link="#"
+                link="https://www.linkedin.com/in/sharadindu-dutta-3a8923419/"
               />
 
             </div>

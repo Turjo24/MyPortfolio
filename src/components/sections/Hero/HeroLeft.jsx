@@ -69,27 +69,26 @@ export default function HeroLeft() {
           <FaArrowRight />
         </MagneticButton>
 
-        <MagneticButton
-          className="border border-white/10 hover:bg-white/10"
-        >
-          Download CV
-
-          <FaDownload />
-        </MagneticButton>
+      <a href="/cv/Turjo_Dutta_CV.pdf" download="Turjo_Dutta_CV.pdf">
+       <MagneticButton className="border border-white/10 hover:bg-white/10">
+         Download CV
+        <FaDownload />
+     </MagneticButton>
+      </a>
 
       </div>
 
       <div className="flex gap-5 mt-10">
 
         <a
-          href="#"
+          href="https://github.com/Turjo24"
           className="text-3xl hover:text-orange-400 transition"
         >
           <FaGithub />
         </a>
 
         <a
-          href="#"
+          href="https://www.linkedin.com/in/sharadindu-dutta-3a8923419/"
           className="text-3xl hover:text-blue-400 transition"
         >
           <FaLinkedin />

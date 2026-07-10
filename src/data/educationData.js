@@ -1,7 +1,7 @@
 export const education = [
   {
     id: 1,
-    year: "2023 - Present",
+    year: "2022 - Present",
     degree: "B.Sc. in Computer Science & Engineering",
     institution: "Ahsanullah University of Science and Technology (AUST)",
     description:
@@ -13,7 +13,7 @@ export const education = [
     id: 2,
     year: "2019 - 2021",
     degree: "Higher Secondary Certificate (HSC)",
-    institution: "Science",
+    institution: "Gov't City College,Chattogram",
     description:
       "Completed Higher Secondary education with a Science background, building a strong foundation in Mathematics and Physics.",
     cgpa: "",
@@ -23,7 +23,7 @@ export const education = [
     id: 3,
     year: "2017 - 2019",
     degree: "Secondary School Certificate (SSC)",
-    institution: "Science",
+    institution: "Saint Placid's High School and College",
     description:
       "Completed Secondary education with a Science background.",
     cgpa: "",

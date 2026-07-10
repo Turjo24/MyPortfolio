@@ -176,7 +176,7 @@ export default function Projects() {
           "
         >
           <a
-            href="#"
+            href="https://github.com/Turjo24"
             target="_blank"
             rel="noreferrer"
             className="
