@@ -70,7 +70,7 @@ export default function HeroLeft() {
           <FaArrowRight />
         </MagneticButton>
         </Link>
-      <a href="/cv/Turjo_Dutta_CV.pdf" download="Turjo_Dutta_CV.pdf">
+      <a href="/cv/Turjo_Dutta_CV.pdf" download="Sharadindu_Dutta_CV.pdf">
        <MagneticButton className="border border-white/10 hover:bg-white/10">
          Download CV
         <FaDownload />
