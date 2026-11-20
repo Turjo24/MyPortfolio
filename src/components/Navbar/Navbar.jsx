@@ -52,9 +52,9 @@ export default function Navbar() {
       ) : (
         // Full navbar
         <div className="max-w-7xl mx-auto h-full flex items-center justify-between px-6">
-          <h1 className="text-2xl font-bold tracking-wide">
-            <span className="text-orange-500">Turjo</span>.dev
-          </h1>
+          <div className="text-2xl font-bold tracking-wide">
+            <span className="text-orange-500">Sharadindu</span>.dev
+          </div>
 
           <ul className="hidden md:flex gap-10 text-gray-300">
             <li><a href="#home" className="hover:text-orange-500 transition">Home</a></li>

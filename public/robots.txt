@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://turjodev.vercel.app/sitemap.xml
